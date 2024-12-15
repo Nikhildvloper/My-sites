@@ -1,1 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Sites</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
 
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+            gap: 20px;
+        }
+
+        .site-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .site-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .site-card h3 {
+            margin: 0 0 10px;
+            font-size: 1.5em;
+            color: #4CAF50;
+        }
+
+        .site-card p {
+            margin: 0 0 15px;
+            font-size: 1em;
+        }
+
+        .site-card a {
+            text-decoration: none;
+            color: white;
+            background-color: #4CAF50;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        .site-card a:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Sites</h1>
+        <p>Explore my favorite websites and projects</p>
+    </header>
+    <main>
+        <div class="site-card">
+            <h3>Site 1</h3>
+            <p>A short description of the site.</p>
+            <a href="#" target="_blank">Visit</a>
+        </div>
+        <div class="site-card">
+            <h3>Site 2</h3>
+            <p>A short description of the site.</p>
+            <a href="#" target="_blank">Visit</a>
+        </div>
+        <div class="site-card">
+            <h3>Site 3</h3>
+            <p>A short description of the site.</p>
+            <a href="#" target="_blank">Visit</a>
+        </div>
+        <div class="site-card">
+            <h3>Site 4</h3>
+            <p>A short description of the site.</p>
+            <a href="#" target="_blank">Visit</a>
+        </div>
+        <div class="site-card">
+            <h3>Site 5</h3>
+            <p>A short description of the site.</p>
+            <a href="#" target="_blank">Visit</a>
+        </div>
+        <div class="site-card">
+            <h3>Site 6</h3>
+            <p>A short description of the site.</p>
+            <a href="#" target="_blank">Visit</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Sites</p>
+    </footer>
+</body>
+</html>
